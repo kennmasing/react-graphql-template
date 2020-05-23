@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+.no-gutters {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important; }
+
+.min-gutters {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important; }
+
+.min-x-gutters {
+  margin-right: 0.1rem !important;
+  margin-left: 0.1rem !important;
+  padding-right: 0.1rem !important;
+  padding-left: 0.1rem !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important; }
+
+div#loaderContainer {
+  position: relative; }
+
+div#loader {
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%); }
+
+.App {
+  display: flex;
+  width: 100%;
+  align-items: stretch; }
+
+@media(min-width:992px) {
+  div.landing {
+    background: url(https://res.cloudinary.com/kennmasing/image/upload/v1590210092/reactapp-template/react-template-bg_tnx0ks.png) center center;
+    background-size: cover;
+    height: 100vh;
+    background-color: #272b30; }
+    div.landing div.row div img.tmLogo {
+      height: 12vh;
+      transition-timing-function: ease-in;
+      transition: 0.5s; }
+    div.landing div.row div img.tmLogo:hover {
+      transition-timing-function: ease-out;
+      transition: 0.5s;
+      transform: scale(1.1); }
+    div.landing div.row div a.btn-outline-white {
+      border: 1px solid #FFF;
+      color: white; }
+    div.landing div.row div a.btn-outline-white:hover {
+      background: #FFFFFF;
+      color: #272b30; } }
+@media(min-width:992px) {
+  div.login-container div div.login-bg {
+    height: 100vh;
+    background-color: #291c55;
+    background: url(https://res.cloudinary.com/kennmasing/image/upload/v1590210816/reactapp-template/bigData_spcsfd.png) center center;
+    background-size: cover; }
+  div.login-container div div div h1 {
+    font-size: 1rem;
+    font-family: Oswald; } }
+@media(min-width:992px) {
+  div.register-container div div.register-bg {
+    height: 100vh;
+    background-color: #291c55;
+    background: url(https://res.cloudinary.com/kennmasing/image/upload/v1590210816/reactapp-template/bigData_spcsfd.png) center center;
+    background-size: cover; }
+  div.register-container div div div h1 {
+    font-size: 1rem;
+    font-family: Oswald; } }
+@media(min-width:992px) {
+  form.register p {
+    color: #c2c1c6; }
+    form.register p a {
+      color: #faaea5; } }
+@media(min-width:992px) {
+  form.login p {
+    color: #c2c1c6; }
+    form.login p a {
+      color: #faaea5; }
+
+  div.login-credential div div h6 {
+    color: #c2c1c6; }
+  div.login-credential div table tr th {
+    color: #c2c1c6; }
+  div.login-credential div table tr td {
+    color: #c2c1c6; } }
+@media(min-width:992px) {
+  nav {
+    height: 10vh; }
+    nav img.tmLogo {
+      height: 7.5vh; } }
+
+/*# sourceMappingURL=style.css.map */

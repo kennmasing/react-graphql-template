@@ -1,0 +1,27 @@
+@include desktop
+	div.landing
+		background: url(https://res.cloudinary.com/kennmasing/image/upload/v1590210092/reactapp-template/react-template-bg_tnx0ks.png) center center
+		background-size: cover
+		height: 100vh
+		background-color: #272b30
+
+		div.row
+			div
+				img.tmLogo
+					height: 12vh
+					transition-timing-function: ease-in
+					transition: 0.5s
+			
+				img.tmLogo:hover 
+					transition-timing-function: ease-out
+					transition: 0.5s
+					transform: scale(1.1)
+
+			div
+				a.btn-outline-white
+					border: 1px solid #FFF
+					color: white
+
+				a.btn-outline-white:hover
+					background: $white
+					color: #272b30
